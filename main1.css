@@ -12,7 +12,17 @@ body,html{
     border: 2px black
 
 }
+main form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+    width:18vw;
+    border:1px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
 
+}
 
 #signin{
     display:flex;
@@ -55,6 +65,17 @@ img{
     display:flex;
     flex-direction: row;
     justify-content: center;
+}
+.create{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 5vh;
+    width:18vw;
+    border:1px transparent;
+    
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav li{
